@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+table,td,tr,th{
+    justify-content: middle;
+    text-align: center;
+    
+
+    
+}
+td{
+    width: 150px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+
+}
+table{
+    
+    background:linear-gradient(90deg, rgb(39, 39, 39) 0%, rgb(211, 116, 116) 50%, rgb(39, 39, 39) 100%);
+}
+td:hover{
+    color:black;
+    background-color: darkred;
+    
+}
+table{
+    border-color: beige;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
