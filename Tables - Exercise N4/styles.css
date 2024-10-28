@@ -31,3 +31,6 @@ table{
     border-color: beige;
     transition: color 0.3s ease, background-color 0.3s ease;
 }
+th{
+    font-size: 20px;
+}
